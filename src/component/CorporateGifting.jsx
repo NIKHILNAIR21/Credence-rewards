@@ -53,7 +53,6 @@ function CorporateGifting() {
               </div>
             </div>
             <div className="w-1/2 ">
-              {/* Content for the right side */}
               <div class="bg-white  text-center">
                 <h1 class="text-2xl font-bold " style={{ color: "#D49918" }}>
                   CREDENCE REWARDS
