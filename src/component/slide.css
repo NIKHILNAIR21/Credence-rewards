@@ -1,0 +1,28 @@
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+.marquee {
+  display: flex;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+  list-style: disc;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee li {
+  padding-right: 20px; /* Adjust as needed */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
