@@ -11,47 +11,13 @@ import "../component/slide.css";
 import Popular from "../component/Popular";
 import NewsLetter from "../component/NewsLetter";
 import Footer from "../component/Footer";
+import CategoryList from "../component/CategoryList";
 const Home = () => {
   return (
     <div className="relative z-40 w-[27rem] sm:w-full bg-[#EAEAEA]">
       <SearchBar />
       <HomeCarousel />
-      <div className="marquee-container bg-gradient-to-b from-black from-10% to-white/10 p-3 font-bold ">
-        <ul className="marquee text-white">
-          <li>ELECTRONICS</li>
-          <li>FASHION</li>
-          <li>LIFESTYLE</li>
-          <li>TRAVEL</li>
-          <li>ENTERTAINMENT</li>
-          <li>LUXURY</li>
-          <li>FOOD</li>
-          <li>TRAVEL</li>
-          <li>ENTERTAINMENT</li>
-          <li>LUXURY</li>
-          <li>FOOD</li>
-          <li>GROCERY</li>
-          <li>BEAUTY</li>
-          <li>ENTERTAINMENT</li>
-          <li>LUXURY</li>
-          <li>FOOD</li>
-          <li>GROCERY</li>
-          <li>BEAUTY</li>
-
-          <li>ELECTRONICS</li>
-          <li>FASHION</li>
-          <li>LIFESTYLE</li>
-          <li>TRAVEL</li>
-          <li>ENTERTAINMENT</li>
-          <li>LUXURY</li>
-          <li>FOOD</li>
-          <li>TRAVEL</li>
-          <li>ENTERTAINMENT</li>
-          <li>LUXURY</li>
-          <li>FOOD</li>
-          <li>GROCERY</li>
-          <li>BEAUTY</li>
-        </ul>
-      </div>
+      <CategoryList />
       <SmallCarousel />
       <CompanyList />
       <Deals />
