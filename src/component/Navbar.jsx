@@ -4,7 +4,7 @@ import User from "../assets/Avatar.webp";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="py-7 bg-[#EAEAEA] ">
+    <div className="py-7  ">
       <nav className="hidden sm:flex mx-auto pt-3 bg-white p-3 justify-between items-center rounded-[24px]  shadow-lg w-[60%]">
         <div>
           <img className="w-44 pb-3" src={logo} alt="" />
