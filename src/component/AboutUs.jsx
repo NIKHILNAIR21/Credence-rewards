@@ -146,7 +146,9 @@ function AboutUs() {
         </div>
         <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
           <div className="px-6 py-4">
-            <div className="font-bold text-2xl mb-2">Join the gifting journey</div>
+            <div className="font-bold text-2xl mb-2">
+              Join the gifting journey
+            </div>
             <p className="text-gray-700 text-base">
               Whether you are a business seeking corporate gifting solutions or
               an individual looking to make someone's day brighter, we welcome
