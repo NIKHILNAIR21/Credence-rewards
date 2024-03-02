@@ -10,13 +10,21 @@ const Navbar = () => {
           <img className="w-44 pb-3" src={logo} alt="" />
         </div>
         <ul className="flex justify-center items-center gap-5 text-[#7C7C7C] transition-all delay-100 font-medium text-[14px]">
-          <li className="cursor-pointer hover:text-black">ABOUT US</li>
+          <Link to="/about-us">
+            <li className="cursor-pointer hover:text-black">ABOUT US</li>
+          </Link>
           <Link to="/brands">
             <li className="cursor-pointer hover:text-black">BRANDS</li>
           </Link>
-          <li className="cursor-pointer hover:text-black">CORPORATE GIFTING</li>
+          <Link to="/corporate-gifting">
+            <li className="cursor-pointer hover:text-black">
+              CORPORATE GIFTING
+            </li>
+          </Link>
           <li className="cursor-pointer hover:text-black">CATEGORIES</li>
-          <li className="cursor-pointer hover:text-black">CHECK BALANCE</li>
+          <Link to="/check-balance">
+            <li className="cursor-pointer hover:text-black">CHECK BALANCE</li>
+          </Link>
         </ul>
         <div>
           <img className="w-[49px] h-[49px]" src={User} alt="" />
