@@ -8,6 +8,7 @@ import Brand from "./Screen/Brand";
 import Product from "./Screen/ProductPage";
 import CorporateGifting from "./component/CorporateGifting";
 import AboutUs from "./component/AboutUs";
+import CheckBalance from "./component/CheckBalance";
 function App() {
   return (
     <div>
@@ -19,6 +20,8 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/corporate-gifting" element={<CorporateGifting />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/check-balance" element={<CheckBalance/>} />
+
         </Routes>
         <div className="h-[10vh]"></div>
         <Footer />
