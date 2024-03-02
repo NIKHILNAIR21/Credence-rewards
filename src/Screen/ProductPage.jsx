@@ -16,7 +16,7 @@ const ProductPage = () => {
         <h2 className="text-3xl font-bold text-center mb-12">
           Yatra E-GIFT CARD
         </h2>
-        <div className="flex gap-14 px-5">
+        <div className="flex gap-14 px-5 py-6">
           <div>
             <div className=" relative  my-10">
               <img
@@ -59,7 +59,7 @@ const ProductPage = () => {
           </div>
           <div className="flex flex-col items-start justify-between">
             <h2 className="text-4xl  font-bold">
-              Save +8% on <br />
+              Save <span className="text-[#D49918]">+8%</span> on <br />
               BRAND CARDS
             </h2>
             <div>
