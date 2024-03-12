@@ -72,6 +72,106 @@ function AboutUs() {
           </p>
         </div>
       </div>
+      <div className="flex flex-wrap justify-center mt-4">
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">The Power of choice</div>
+            <p className="text-gray-700 text-base">
+              Gift cards empower both businesses and individuals to express
+              their appreciation, gratitude, and love. With our diverse
+              collection of gift cards from multiple esteemed brands, we offer a
+              world of options, ensuring that each recipient receives a gift
+              that resonates with their unique preferences.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">For Business</div>
+            <p className="text-gray-700 text-base">
+              As a business-focused gifting solutions provider, we understand
+              the importance of strengthening connections with customers and
+              employees. Our tailored corporate gifting solutions allow
+              businesses to elevate their brand presence, reward loyalty, and
+              foster meaningful relationships.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">For individuals</div>
+            <p className="text-gray-700 text-base">
+              for individuals seeking the perfect present for their loved ones,
+              our gift cards become the messenger of sentiments. From birthdays
+              to festivals, anniversaries to achievements, our gift cards offer
+              a memorable way to celebrate every occasion.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">The joy of gifting</div>
+            <p className="text-gray-700 text-base">
+              We take immense pride in being part of countless celebrations and
+              heartfelt moments. Our gift cards have witnessed smiles,
+              surprises, and unforgettable memories shared between loved ones,
+              making us an integral part of their joyous journey.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">
+              Convinience & Transparency
+            </div>
+            <p className="text-gray-700 text-base">
+              Transparency and convenience are the pillars of our services. We
+              believe in offering an effortless gifting experience, ensuring no
+              hidden charges or complexities. With instant delivery options,
+              your heartfelt gift reaches its destination promptly, adding joy
+              to every celebration.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">
+              Committed to Excellence
+            </div>
+            <p className="text-gray-700 text-base">
+              Our team of passionate professionals is committed to excellence in
+              everything we do. From curating a wide range of gift cards to
+              providing exceptional customer support, we aim to exceed your
+              expectations and make your gifting journey seamless.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">Gratitude</div>
+            <p className="text-gray-700 text-base">
+              As we celebrate 7 years of touching lives and creating smiles, we
+              extend our heartfelt gratitude to our valued clients, partners,
+              and customers. Your unwavering support and trust have been our
+              driving force, inspiring us to constantly innovate and improve our
+              services.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-xs mx-2 my-4 bg-white rounded-3xl overflow-hidden border">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl mb-2">
+              Join the gifting journey
+            </div>
+            <p className="text-gray-700 text-base">
+              Whether you are a business seeking corporate gifting solutions or
+              an individual looking to make someone's day brighter, we welcome
+              you to join us on our joyous gifting journey. Together, let's make
+              every occasion more special and spread the joy of giving.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
