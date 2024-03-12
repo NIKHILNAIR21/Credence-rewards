@@ -1,0 +1,28 @@
+.container-img {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.scrolling-images {
+  width: 200%; /* Set width to twice the container width to create seamless loop */
+  animation: scroll 30s linear infinite; /* Adjust duration as needed */
+  white-space: nowrap;
+  display: flex;
+  gap: 0;
+}
+
+.scrolling-image {
+  display: inline-block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Move by half of the container width to create continuous loop */
+  }
+}

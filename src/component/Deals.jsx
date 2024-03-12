@@ -17,7 +17,7 @@ const Deals = () => {
       }}
     >
       {/* <img className="hidden sm:flex h-full" src={homebg} alt="" /> */}
-      <h2 className=" text-4xl font-semibold  text-black text-center pt-3">
+      <h2 className=" text-2xl sm:text-4xl font-semibold  text-black text-center pt-3">
         Exculsive Deals
       </h2>
       <div className="flex justify-center scale-90 h-full w-full sm:w-[80%] mx-auto gap-4 flex-wrap ">

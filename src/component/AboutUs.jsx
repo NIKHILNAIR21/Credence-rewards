@@ -1,15 +1,18 @@
 import React from "react";
-import artImg from "../assets/LoginArt.png";
-
+import artImg1 from "../assets/art-1.png";
+import artImg2 from "../assets/art-2.png";
+import "./AboutUs.css";
 function AboutUs() {
   return (
-    <div className="container mx-auto mt-8">
+    <div className="container mx-auto pt-28">
       <h1 className="text-3xl font-bold text-center mb-6">About Us</h1>
-      <div className="bg-white p-6 rounded-3xl  border ml-20 mr-20">
-        <div className="flex gap-40 ">
-          <div className="w-1/2  ">
+      <div className="bg-white p-6 rounded-3xl  border  w-[70%] mx-auto">
+        <div className="flex flex-col md:flex-row justify-center items-center">
+          <div className="  ">
             <div className="p-3 ">
-              <h2 className="text-2xl font-bold mb-4 ">Our Story</h2>
+              <h2 className="text-2xl text-center md:text-left  font-bold mb-4 ">
+                Our Story
+              </h2>
               <p className="font-normal mb-2">
                 We believe that there’s a perfect gift for everyone, which is
                 why we offer you gift cards from 100+ reputed brands for every
@@ -28,12 +31,23 @@ function AboutUs() {
               </h5>
             </div>
           </div>
-          <div className="w-1/2   ">
-            <img src={artImg} className="w-80" />
+          <div className="container-img rounded-3xl">
+            <div className="scrolling-images">
+              <img
+                src={artImg1}
+                className="scrolling-image  scale-105"
+                alt="Art"
+              />
+              <img
+                src={artImg2}
+                className="scrolling-image scale-105"
+                alt="Art"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="bg-white p-6 rounded-3xl  border ml-20 mr-20 mt-8">
+      <div className="bg-white p-6 rounded-3xl  border w-[70%] mx-auto mt-8">
         <div className="p-3 text-center">
           <h1 className="text-3xl font-bold mb-4 ">
             Spreading Joy Through The Gift Of Choice
@@ -46,9 +60,9 @@ function AboutUs() {
           </p>
         </div>
       </div>
-      <div className="bg-white p-6 rounded-3xl  border ml-20 mr-20 mt-8">
+      <div className="bg-white p-6 rounded-3xl  border w-[70%] mx-auto mt-8">
         <div className="p-3 text-center">
-          <h1 className="text-xl font-bold mb-4 ">Our Mission</h1>
+          <h1 className="text-3xl font-bold mb-4 ">Our Mission</h1>
           <p className="font-normal mb-2 mt-1">
             Our Mission At Credence Rewards, our mission is simple yet profound:
             to spread joy through the gift of choice. We believe that every gift

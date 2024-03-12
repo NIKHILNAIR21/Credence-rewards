@@ -14,7 +14,7 @@ import Footer from "../component/Footer";
 import CategoryList from "../component/CategoryList";
 const Home = () => {
   return (
-    <div className="relative z-40 w-[27rem] sm:w-full bg-[#EAEAEA]">
+    <div className="relative z-40 w-[27rem] pt-20 sm:w-full bg-[#EAEAEA]">
       <SearchBar />
       <HomeCarousel />
       <CategoryList />
@@ -23,7 +23,7 @@ const Home = () => {
       <Deals />
       <div></div>
       <Popular />
-      <div className="py-10">
+      <div className="py-10 ">
         <NewsLetter />
       </div>
     </div>

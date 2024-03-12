@@ -12,7 +12,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 const CompanyList = () => {
   return (
     <div className="bg-[rgb(234,234,234)] p-3 relative">
-      <h2 className="text-3xl  mt-10 font-bold text-black text-center">
+      <h2 className="text-xl sm:text-3xl mt-5 sm:mt-10 font-bold text-black text-center">
         Shop & Save on Popular Brands
       </h2>
       <div className="w-[99%] sm:w-[55%] my-4 h-auto  bg-white  rounded-[24px] mx-auto">

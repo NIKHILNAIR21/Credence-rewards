@@ -3,8 +3,8 @@ import React from "react";
 const CategoryList = () => {
   return (
     <div>
-      <div className="marquee-container bg-gradient-to-b from-black from-10% to-white/10 p-3 font-bold ">
-        <ul className="marquee text-white">
+      <div className="marquee-container  bg-gradient-to-t from-black from-30% via-white/0   to-black to-30%  p-3 font-bold ">
+        <ul className="marquee text-white  w-full">
           <li>ELECTRONICS</li>
           <li>FASHION</li>
           <li>LIFESTYLE</li>
@@ -23,7 +23,6 @@ const CategoryList = () => {
           <li>FOOD</li>
           <li>GROCERY</li>
           <li>BEAUTY</li>
-
           <li>ELECTRONICS</li>
           <li>FASHION</li>
           <li>LIFESTYLE</li>
